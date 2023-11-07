@@ -1,0 +1,65 @@
+main{
+    height: 1000px;
+    background-image: url(/public/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+   overflow-y: scroll;
+    
+}
+
+main::-webkit-scrollbar{
+
+    display: none;
+}
+
+.secc-imagenes{
+    text-align: center;
+   
+}
+.contenedor{
+
+   padding-top: 100px;
+   text-align: center;
+   
+}
+
+.cont-buscador{
+    margin-right: 12%;
+    margin-top: 30px;
+}
+
+.buscador{
+
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    position: absolute;
+}
+
+.ic-buscador{
+    position: relative;
+    left: 12%;
+    margin-top: 8px;
+
+    background: none;
+    border: none;
+}
+
+.ic-buscador:hover{
+
+    scale: 1.1;
+}
+
+
+/*------------------imagenes-------------------*/
+
+.img-todos{
+
+    width: 90%;
+	margin: 50px auto 50px auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
